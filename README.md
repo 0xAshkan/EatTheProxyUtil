@@ -11,7 +11,7 @@ $ chmod +x ./pu-installer.sh
 $ sudo ./pu-installer.sh
 ```
 
-## Use to fetch v2ray config
+## Use to fetch v2ray configs
 
 ```bash
 $ vcRunner.sh
