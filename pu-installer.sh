@@ -54,7 +54,7 @@ if command -v python3 &> /dev/null ; then
 		apt-get install -y python3-pip
 	fi
 else
-	apt install -y python3
+	apt-get install -y python3
 fi
 
 cp ./MakeItEasier/vcRunner.sh /usr/local/bin/
