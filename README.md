@@ -1,6 +1,6 @@
 # EatTheProxyUtil
 
-EatTheProxyUtil is a tool designed to simplify the installation and usage of [proxyutil](https://github.com/mheidari98/proxyutil) on your system. It streamlines the process of obtaining new, live V2Ray configurations effortlessly! :)
+EatTheProxyUtil is a tool designed to simplify the installation and usage of [proxyutil](https://github.com/mheidari98/proxyutil) on your system. It streamlines the process of obtaining new, live V2Ray configs effortlessly! :)
 
 ## Installation
 
