@@ -43,7 +43,7 @@ fi
 # Installing proxyutil & python3 & pip3
 if command -v python3 &> /dev/null ; then
 	if command -v pip3 &> /dev/null; then
-		PU_INSTALL=$(python3 -m pip install --user $UNAME --upgrade git+https://github.com/mheidari98/proxyUtil@main &>/dev/null)
+		PU_INSTALL=$(sudo -u $UNAME python3 -m pip install --user --upgrade git+https://github.com/mheidari98/proxyUtil@main &>/dev/null)
 		if [ "$?" -eq 0 ]; then
 			echo -e "$GREEN[+] PROXYUTIL INSTALLED SUCCESSFULLY!"
 		else
