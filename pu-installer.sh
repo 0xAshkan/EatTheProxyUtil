@@ -66,7 +66,7 @@ install_proxyutil() {
         sudo apt-get install -y python3
     fi
 
-    log "INFO" "Installing virtualenv"
+    log "INFO" "Installing virtualenv" "$BLUE"
     pip install --break-system-packages --upgrade virtualenv
     log "INFO" "Creating a virtual environment '/opt/ETPU'..." "$BLUE"
     sudo virtualenv /opt/ETPU
@@ -101,7 +101,7 @@ install_proxyutil
 
 if cp ./MakeItEasier/vcRunner.sh /usr/local/bin/; then
     log "SUCCESS" "vcRunner.sh copied to /usr/local/bin successfully." "$GREEN"
-    log "INFO" "You can check configurations with the command: vcRunner.sh" "$BLUE"
+    log "INFO" "You can run the tool using command: vcRunner.sh" "$BLUE"
 else
     log "ERROR" "Failed to copy vcRunner.sh to /usr/local/bin." "$RED"
     exit 1
