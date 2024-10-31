@@ -14,7 +14,11 @@ if [ ! -d "$HOME/v2ray_configs" ]; then
 fi
 FULL_PATH="$HOME/v2ray_configs/configs_$RANDOM_NUMBER.txt"
 
+source /opt/ETPU/bin/activate
+
 v2rayChecker -v -T 100 --url 'https://raw.githubusercontent.com/mheidari98/.proxy/main/all' -o "$FULL_PATH" 
+
+deactivate
 
 echo -e "\n[+] CONFIGS SAVED TO '$FULL_PATH'."
 
